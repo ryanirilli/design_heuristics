@@ -500,8 +500,10 @@ blockquote{border:none;}
 
 /*---------------------PANE 3 CLEAR ----------------------------*/
 #clear .container {
-	padding-top:370px;
+	padding-top:110px;
 }
+.row {margin-bottom:30px;}
+.sl-deco {position:relative;}
 .sl-slide .container ul {margin:0 10px 0 20px; font-family:'Bembo W01', sans-serif;}
 .sl-slide .container li {font-size:18px; line-height:1.3em; margin-bottom:5px;}
 .br-quote {text-align:right; margin-top:57px; font-size:15px;}
