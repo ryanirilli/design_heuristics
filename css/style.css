@@ -159,8 +159,6 @@
 	padding: 20px;
 	position: absolute;
 	font-size: 34px;
-	font-weight: 300;
-	text-transform: uppercase;
 	width: 80%;
 	left: 10%;
 	text-align: center;
@@ -438,9 +436,9 @@ font-family:'Bembo W01';
 
 
 /*------------------------our styles-------------------------------------*/
-body {font-family:'Avenir LT W01 45 Book', sans-serif;}
+body {font-family:'Bembo W01', Georgia, "Times New Roman", Times, serif;}
 strong {font-weight: normal; !important;}
-h1, h2, h3 {font-family:'Bembo MT W01 Bold', sans-serif;}
+h1, h2, h3, h4 {font-family:'Avenir LT W01 85 Heavy', sans-serif; font-weight:normal;}
 
 .green{color:#4da2e4;}
 /*------------------------NAV------------------------*/
@@ -474,13 +472,15 @@ h1, h2, h3 {font-family:'Bembo MT W01 Bold', sans-serif;}
 }
 
 .sl-slide h2 span.small {
-	font-size:25%;
+	font-size:33%;
 	color:#999;
 	letter-spacing: 0px;
+	font-family:'Avenir LT W01 35 Light', sans-serif;
 }
 #main-title img{
 	position:relative;
 }
+
 
 /*---------------------PANE 2 FINDABILITY ----------------------------*/
 #findability .sl-content{
@@ -496,4 +496,15 @@ h1, h2, h3 {font-family:'Bembo MT W01 Bold', sans-serif;}
 	margin-left:-400px;
 	background:white;
 }
+
+/*---------------------PANE 3 CLEAR ----------------------------*/
+#clear .container {
+	padding-top:370px;
+}
+.sl-slide .container ul {margin:0 10px 0 20px; font-family:'Bembo W01', sans-serif;}
+.sl-slide .container li {font-size:18px; line-height:1.3em; margin-bottom:5px;}
+.br-quote {text-align:right; margin-top:57px; font-size:15px;}
+.br-author {font-family:'Bembo MT W01 Italic', Georgia, "Times New Roman", Times, serif; margin-top:5px; font-size:13px;}
+.sl-slide h2 {position:static; font-family:'Avenir LT W01 85 Heavy', sans-serif; line-height:34px; margin:0 0 20px 0; padding:0; text-align:left;}
+
 
