@@ -482,3 +482,18 @@ h1, h2, h3 {font-family:'Bembo MT W01 Bold', sans-serif;}
 	position:relative;
 }
 
+/*---------------------PANE 2 FINDABILITY ----------------------------*/
+#findability .sl-content{
+	background: #4596CE;
+}
+
+#findability .sl-deco{
+	width:800px;
+	height:50%;
+	top:10%;
+	border-radius:0;
+	border:none;
+	margin-left:-400px;
+	background:white;
+}
+
