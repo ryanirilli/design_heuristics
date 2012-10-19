@@ -2,7 +2,6 @@
     position: absolute;
 	top: 0;
 	left: 0;
-	font-family: 'Montserrat', Arial, sans-serif;
 }
 
 /* Navigation arrows */
@@ -426,7 +425,23 @@
 	100% {opacity: 0;}
 }
 
+/* Font Families
+
+font-family:'Avenir LT W01 35 Light';
+font-family:'Avenir LT W01 45 Book';
+font-family:'Avenir LT W01 85 Heavy';
+font-family:'Bembo MT W01 Bold';
+font-family:'Bembo MT W01 Italic';
+font-family:'Bembo W01';
+
+*/
+
+
 /*------------------------our styles-------------------------------------*/
+body {font-family:'Avenir LT W01 45 Book', sans-serif;}
+strong {font-weight: normal; !important;}
+h1, h2, h3 {font-family:'Bembo MT W01 Bold', sans-serif;}
+
 .green{color:#4da2e4;}
 /*------------------------NAV------------------------*/
 .sl-slider nav span {
@@ -455,7 +470,7 @@
 	left:0;
 	font-size:76px;
 	line-height:40px;
-	letter-spacing: -4px;
+    font-family:'Avenir LT W01 85 Heavy', sans-serif;
 }
 
 .sl-slide h2 span.small {
