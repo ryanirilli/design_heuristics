@@ -438,12 +438,8 @@ font-family:'Bembo W01';
 /*------------------------our styles-------------------------------------*/
 body {font-family:'Bembo W01', Georgia, "Times New Roman", Times, serif;}
 strong {font-weight: normal; !important;}
-<<<<<<< HEAD
 h1, h2, h3, h4 {font-family:'Avenir LT W01 85 Heavy', sans-serif; font-weight:normal;}
-=======
-h1, h2, h3 {font-family:'Bembo MT W01 Bold', sans-serif;}
 blockquote{border:none;}
->>>>>>> findability
 
 .green{color:#4da2e4;}
 /*------------------------NAV------------------------*/
@@ -501,7 +497,7 @@ blockquote{border:none;}
 	margin-left:-400px;
 }
 
-<<<<<<< HEAD
+
 /*---------------------PANE 3 CLEAR ----------------------------*/
 #clear .container {
 	padding-top:370px;
@@ -511,7 +507,7 @@ blockquote{border:none;}
 .br-quote {text-align:right; margin-top:57px; font-size:15px;}
 .br-author {font-family:'Bembo MT W01 Italic', Georgia, "Times New Roman", Times, serif; margin-top:5px; font-size:13px;}
 .sl-slide h2 {position:static; font-family:'Avenir LT W01 85 Heavy', sans-serif; line-height:34px; margin:0 0 20px 0; padding:0; text-align:left;}
-=======
+
 #findability h2{
 	bottom: 32%;
 	color: white;
@@ -601,17 +597,5 @@ blockquote{border:none;}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> findability
 
 
