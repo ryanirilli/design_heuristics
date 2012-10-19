@@ -39,10 +39,23 @@
                     </div>
 				</div>
 				<div id="findability" class="sl-slide" data-orientation="horizontal" data-cut1-rotation="-25" data-cut2-rotation="-25" data-cut1-scale="2" data-cut2-scale="2">
-					<div class="sl-deco" data-icon="6"></div>
-                    
-					<h2>Findability</h2>
-					<blockquote><p>Findability precedes usability. In the alphabet and on the Web. You can’t use what you can’t find.</p></blockquote>
+					<div class="sl-deco">
+                        <div class="br-flip">
+                            <div class="card front">
+                                <h2>Findability</h2>
+                                <blockquote><p>Findability precedes usability. In the alphabet and on the Web. You can’t use what you can’t find.</p></blockquote>
+                            </div>
+                            <div class="card back">
+                                <p>Because users think about content in different ways, they should be able to take multiple paths to get to specific content.</p>
+
+                                <p>Facets provide one of the important ways to provide multiple paths to content. I’m looking for a blue coat to go with my gray suit. Or I want a wool sweater, because my cotton one won’t cut it in Boulder, Colorado. My wife says it has to be Prada. Size, color, material, designer: each can be the most important way for someone to find an item or some content.</p>
+                                
+                                <p>While faceted navigation schemes are often useful for e-commerce sites, they can also be especially useful for information-rich sites. You might provide search filters by document type, date, or author in addition to subject. For scientists, methodology or researcher often become more important than subject in finding relevant research papers.</p>
+                                
+                                <p>Multiple access paths provide greater findability for more users.</p>
+                            </div>
+                    	</div>
+                    </div>
 				</div>
 				
 				<div id="clear" class="sl-slide sl-slide-dark" data-orientation="vertical" data-cut1-rotation="10" data-cut2-rotation="-15" data-cut1-scale="1.5" data-cut2-scale="1.5">
@@ -109,6 +122,10 @@
 				$( '#sl-slider' ).slitslider({
 					optOpacity: true,
 					translateF	: 500,
+				});
+				
+				$('.br-flip').on('click', function(){
+					$(this).toggleClass('flip');
 				});
 			
 			});

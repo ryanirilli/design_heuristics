@@ -438,7 +438,12 @@ font-family:'Bembo W01';
 /*------------------------our styles-------------------------------------*/
 body {font-family:'Bembo W01', Georgia, "Times New Roman", Times, serif;}
 strong {font-weight: normal; !important;}
+<<<<<<< HEAD
 h1, h2, h3, h4 {font-family:'Avenir LT W01 85 Heavy', sans-serif; font-weight:normal;}
+=======
+h1, h2, h3 {font-family:'Bembo MT W01 Bold', sans-serif;}
+blockquote{border:none;}
+>>>>>>> findability
 
 .green{color:#4da2e4;}
 /*------------------------NAV------------------------*/
@@ -489,14 +494,14 @@ h1, h2, h3, h4 {font-family:'Avenir LT W01 85 Heavy', sans-serif; font-weight:no
 
 #findability .sl-deco{
 	width:800px;
-	height:50%;
-	top:10%;
+	height:800px;
+	bottom:20%;
 	border-radius:0;
 	border:none;
 	margin-left:-400px;
-	background:white;
 }
 
+<<<<<<< HEAD
 /*---------------------PANE 3 CLEAR ----------------------------*/
 #clear .container {
 	padding-top:370px;
@@ -506,5 +511,107 @@ h1, h2, h3, h4 {font-family:'Avenir LT W01 85 Heavy', sans-serif; font-weight:no
 .br-quote {text-align:right; margin-top:57px; font-size:15px;}
 .br-author {font-family:'Bembo MT W01 Italic', Georgia, "Times New Roman", Times, serif; margin-top:5px; font-size:13px;}
 .sl-slide h2 {position:static; font-family:'Avenir LT W01 85 Heavy', sans-serif; line-height:34px; margin:0 0 20px 0; padding:0; text-align:left;}
+=======
+#findability h2{
+	bottom: 32%;
+	color: white;
+	text-shadow: none;
+}
+
+#findability p{
+	color: white;
+	text-shadow: none;
+}
+
+#findability blockquote{
+	bottom: 35%;
+	color: white;
+	text-shadow: none;
+	width: 64%;
+	left: 19%;
+}
+
+#findability blockquote:before{
+	color: rgba(255, 255, 255, 0.2);
+}
+
+#findability blockquote p{
+	color:white;
+}
+
+#findability .br-flip{
+	webkit-perspective: 600px;
+	-moz-perspective: 600px;
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+#findability .br-flip.flip .front{
+	z-index: 900;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+}
+
+#findability .br-flip.flip .back{
+	z-index: 1000;
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+}
+
+
+#findability .card{
+	-moz-transform-style: preserve-3d;
+	-moz-backface-visibility: hidden;
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+	-webkit-transform-style: preserve-3d;
+	-webkit-backface-visibility: hidden;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+
+#findability .front{
+	background:url(../images/findability_bg.png);
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+	
+}
+
+#findability .back{
+	background:url(../images/findability_bg_back.png);
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform: rotateY(-180deg);
+	padding-top:195px;
+	padding-left:225px;
+}
+
+#findability .br-flip .back p{
+	width:60%;
+	text-align:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> findability
 
 
