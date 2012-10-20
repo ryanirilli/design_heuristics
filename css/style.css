@@ -493,10 +493,10 @@ blockquote{border:none;}
 	background:#FFEB41;
 }
 #findability .sl-content h2, #findability .sl-content p{
-	color:#333;
+	color:black;
 }
 #findability .sl-deco blockquote:before{
-	color: rgba(0, 0, 0, 0.3);
+	color: rgba(0, 0, 0, 0.1);
 }
 
 
@@ -569,3 +569,17 @@ blockquote{border:none;}
 	color: rgba(255, 255, 255, 0.3);
 }
 
+
+/*---------------------PANE 6 CONSISTENCY ----------------------------*/
+
+#consistency .sl-content{
+	background:#A9CC5E;
+}
+
+#consistency .sl-deco blockquote:before{
+	color: rgba(255, 255, 255, 0.3);
+}
+
+#consistency .sl-content h2, #consistency .sl-content p{
+	color:black;
+}
