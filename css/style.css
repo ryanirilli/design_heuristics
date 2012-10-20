@@ -455,6 +455,7 @@ blockquote{border:none;}
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background:white;
 }
 #main-title .container{
 	padding-top:339px;
@@ -483,7 +484,7 @@ blockquote{border:none;}
 }
 
 
-/*---------------------PANE 2 FINDABILITY ----------------------------*/
+/*---------------------PANE 2 FINDABILITY ----------------------------
 #findability .sl-content{
 	background: #4596CE;
 }
@@ -496,19 +497,6 @@ blockquote{border:none;}
 	border:none;
 	margin-left:-400px;
 }
-
-
-/*---------------------PANE 3 CLEAR ----------------------------*/
-#clear .container {
-	padding-top:110px;
-}
-.row {margin-bottom:30px;}
-.sl-deco {position:relative;}
-.sl-slide .container ul {margin:0 10px 0 20px; font-family:'Bembo W01', sans-serif;}
-.sl-slide .container li {font-size:18px; line-height:1.3em; margin-bottom:5px;}
-.br-quote {text-align:right; margin-top:57px; font-size:15px;}
-.br-author {font-family:'Bembo MT W01 Italic', Georgia, "Times New Roman", Times, serif; margin-top:5px; font-size:13px;}
-.sl-slide h2 {position:static; font-family:'Avenir LT W01 85 Heavy', sans-serif; line-height:34px; margin:0 0 20px 0; padding:0; text-align:left;}
 
 #findability h2{
 	bottom: 32%;
@@ -594,10 +582,64 @@ blockquote{border:none;}
 	width:60%;
 	text-align:left;
 }
+*/
+
+/*---------------------PANE 3 CLEAR ----------------------------*/
+#clear .container {
+	padding-top:110px;
+}
+.row {margin-bottom:30px;}
+.sl-deco {
+	position:relative;
+	width:auto;
+	height:auto;
+	border:none;
+	border-radius:0;
+	left:0;
+	margin:0;
+	padding-top:120px;
+	text-align:center;
+}
+
+.sl-deco h2{
+	position:relative;
+	margin:30px 0 10px 0;
+	padding:0;
+	text-align:center;
+	color:white;
+	text-shadow:none;
+	text-align:center;
+	left:0;
+	width:auto;
+}
+
+.sl-deco blockquote{
+	color:white;
+	height:auto;
+	width:50%;
+	margin:0 auto;
+	left:0;
+	position:relative;
+}
+
+.sl-deco blockquote:before{
+	color: rgba(255, 255, 255, 0.3);
+	left:-90px;
+}
+
+.sl-slide .container ul {margin:0 10px 0 20px; font-family:'Bembo W01', sans-serif;}
+.sl-slide .container li {font-size:18px; line-height:1.3em; margin-bottom:5px;}
+.br-quote {text-align:right; margin-top:57px; font-size:15px;}
+.br-author {font-family:'Bembo MT W01 Italic', Georgia, "Times New Roman", Times, serif; margin-top:5px; font-size:13px;}
+.sl-slide h2 {position:static; font-family:'Avenir LT W01 85 Heavy', sans-serif; line-height:34px; margin:30px 0 20px 0; padding:0;}
 
 
+/*---------------------PANE 4 CONTROLLABLE ----------------------------*/
 
 
+#controllable .sl-content{
+	background:#3eb4cf;
+}
 
 
 
