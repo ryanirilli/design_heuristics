@@ -436,9 +436,60 @@ font-family:'Bembo W01';
 
 
 /*------------------------our styles-------------------------------------*/
-body {font-family:'Bembo W01', Georgia, "Times New Roman", Times, serif;}
+
+@font-face {
+    font-family: 'franklin_gothic_fs_bookRg';
+    src: url('fonts/FranklinGothic-Book-webfont.eot');
+    src: url('fonts/FranklinGothic-Book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FranklinGothic-Book-webfont.woff') format('woff'),
+         url('fonts/FranklinGothic-Book-webfont.ttf') format('truetype'),
+         url('fonts/FranklinGothic-Book-webfont.svg#franklin_gothic_fs_bookRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'franklin_gothic_fs_bookbold';
+    src: url('fonts/FranklinGothic-Demi-webfont.eot');
+    src: url('fonts/FranklinGothic-Demi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FranklinGothic-Demi-webfont.woff') format('woff'),
+         url('fonts/FranklinGothic-Demi-webfont.ttf') format('truetype'),
+         url('fonts/FranklinGothic-Demi-webfont.svg#franklin_gothic_fs_bookbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'franklin_gothic_fs_cdregular';
+    src: url('fonts/FranklinGothic-Cd-webfont.eot');
+    src: url('fonts/FranklinGothic-Cd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FranklinGothic-Cd-webfont.woff') format('woff'),
+         url('fonts/FranklinGothic-Cd-webfont.ttf') format('truetype'),
+         url('fonts/FranklinGothic-Cd-webfont.svg#franklin_gothic_fs_cdregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'franklin_gothic_fs_cdbold';
+    src: url('fonts/FranklinGothic-DemiCd-webfont.eot');
+    src: url('fonts/FranklinGothic-DemiCd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FranklinGothic-DemiCd-webfont.woff') format('woff'),
+         url('fonts/FranklinGothic-DemiCd-webfont.ttf') format('truetype'),
+         url('fonts/FranklinGothic-DemiCd-webfont.svg#franklin_gothic_fs_cdbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {font-family:'franklin_gothic_fs_bookRg', sans-serif;}
 strong {font-weight: normal; !important;}
-h1, h2, h3, h4 {font-family:'Avenir LT W01 85 Heavy', sans-serif; font-weight:normal;}
+h1, h2, h3, h4 {font-family:'franklin_gothic_fs_cdbold', sans-serif; font-weight:normal; text-transform:uppercase;}
 blockquote{border:none;}
 
 .blue{color:#4da2e4;}
@@ -464,24 +515,22 @@ blockquote{border:none;}
 	position:relative;
 	margin:0;
 	width:auto;
-	text-transform:none;
 	color:inherit;
 	left:0;
-	font-size:76px;
-	line-height:40px;
-    font-family:'Avenir LT W01 85 Heavy', sans-serif;
+	font-size:60px;
+	line-height:30px;
 	text-shadow:none;
 }
 
-#main-title img{
+#main-title p{
 	margin-top:35px;
+	color:#888;
 }
 
 .sl-slide h2 span.small {
 	font-size:33%;
 	color:#999;
 	letter-spacing: 0px;
-	font-family:'Avenir LT W01 35 Light', sans-serif;
 }
 #main-title img{
 	position:relative;
@@ -510,7 +559,7 @@ blockquote{border:none;}
 	background:#8fcdf7;
 }
 
-#clear h2 {text-align:left;}
+#clear h2 {text-align:left; margin-top:0; margin-bottom:10px;}
 
 #clear .container {
 	padding-top:50px;
@@ -551,14 +600,15 @@ blockquote{border:none;}
 	left:-90px; 
 }
 
-.sl-slide .container ul {margin:0 10px 0 20px; font-family:'Bembo W01', sans-serif;}
-.sl-slide .container li {font-size:18px; line-height:1.3em; margin-bottom:5px;}
+.sl-slide .container ul {margin:0 10px 0 20px;}
+.sl-slide .container li {font-size:17px; line-height:1.3em; margin-bottom:5px;}
 .sl-slide .span12 {
 	text-align:center;
 }
-.br-quote {text-align:right; margin-top:57px; font-size:15px;}
-.br-author {font-family:'Bembo MT W01 Italic', Georgia, "Times New Roman", Times, serif; margin-top:5px; font-size:13px;}
-.sl-slide h2 {position:static; font-family:'Avenir LT W01 85 Heavy', sans-serif; line-height:34px; margin:30px 0 20px 0; padding:0;}
+.br-quote {text-align:right; margin-top:0; margin-bottom:10px; font-size:15px;}
+.br-author { margin-top:5px; font-size:13px;}
+.sl-slide h2 {position:static; line-height:34px; margin:30px 0 20px 0; padding:0;}
+.sl-slide h2 span.small {font-family:'franklin_gothic_fs_bookRg', sans-serif;}
 
 
 /*---------------------PANE 4 CONTROLLABLE ----------------------------*/
