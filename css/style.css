@@ -590,3 +590,11 @@ blockquote{border:none;}
 #consistency .sl-content h2, #consistency .sl-content p{
 	color:black;
 }
+
+#delight .sl-content{
+	background:#3B3632
+}
+
+#delight .sl-deco h2, #delight .sl-deco blockquote{
+	color:white;
+}
