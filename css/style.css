@@ -505,8 +505,15 @@ blockquote{border:none;}
 
 
 /*---------------------PANE 3 CLEAR ----------------------------*/
+#clear .sl-content-cut,
+#clear .sl-content {
+	background:#8fcdf7;
+}
+
+#clear h2 {text-align:left;}
+
 #clear .container {
-	padding-top:110px;
+	padding-top:50px;
 }
 .row {margin-bottom:30px;}
 .sl-deco {
