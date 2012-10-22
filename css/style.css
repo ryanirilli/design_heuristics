@@ -684,3 +684,17 @@ blockquote{border:none;}
 #credible .container {
 	padding-top:50px;
 }
+
+
+/*---------------------PANE 9 VALUABLE ----------------------------*/
+
+#valuable .sl-content-cut,
+#valuable .sl-content {
+	background:#e8a3bf;
+}
+
+#valuable h2 {text-align:left; margin-top:0; margin-bottom:10px; color:#000;}
+
+#valuable .container {
+	padding-top:50px;
+}
