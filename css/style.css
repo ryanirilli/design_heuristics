@@ -194,7 +194,7 @@
 	z-index: -1;
 	left: -15px;
 	top: 35px;
-	content: '\201C';
+	/*content: '\201C';*/
 }
 
 .sl-slide blockquote cite {
@@ -578,11 +578,14 @@ blockquote{border:none;}
 	background:#8fcdf7;
 }
 
-#clear h2 {text-align:left; margin-top:0; margin-bottom:10px;}
+#clear h2 { margin-top:0; margin-bottom:10px;}
 
 #clear .container {
 	padding-top:50px;
 }
+
+#clear blockquote p, #learnable blockquote p, #credible blockquote p, #communicative blockquote p, #valuable blockquote p, #why blockquote p {color:black;}
+
 .row {margin-bottom:30px;}
 .sl-deco {
 	position:relative;
@@ -606,6 +609,8 @@ blockquote{border:none;}
 	left:0;
 	width:auto;
 }
+
+.sl-deco ul li{text-align:left;}
 
 .sl-deco blockquote{
 	height:auto;
@@ -652,7 +657,7 @@ blockquote{border:none;}
 	background:#f9a74e;
 }
 
-#learnable h2 {text-align:left; margin-top:0; margin-bottom:10px; color:#000;}
+#learnable h2 {margin-top:0; margin-bottom:10px; color:#000;}
 
 #learnable .container {
 	padding-top:50px;
@@ -687,7 +692,7 @@ blockquote{border:none;}
 	background:#c4a0e5;
 }
 
-#credible h2 {text-align:left; margin-top:0; margin-bottom:10px; color:#000;}
+#credible h2 { margin-top:0; margin-bottom:10px; color:#000;}
 
 #credible .container {
 	padding-top:50px;
@@ -701,7 +706,7 @@ blockquote{border:none;}
 	background:#e8a3bf;
 }
 
-#valuable h2 {text-align:left; margin-top:0; margin-bottom:10px; color:#000;}
+#valuable h2 { margin-top:0; margin-bottom:10px; color:#000;}
 
 #valuable .container {
 	padding-top:50px;
