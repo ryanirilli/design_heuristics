@@ -254,7 +254,6 @@
 .sl-slide-color-2.sl-slide h2,
 .sl-slide-color-2.sl-slide blockquote{
 	color: #fff;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .sl-slide-color-2.sl-slide blockquote:before {
@@ -485,6 +484,18 @@ font-family:'Bembo W01';
 
 }
 
+@font-face {
+    font-family: 'franklin_gothic_fs_bookitalic';
+    src: url('FranklinGothic-BookIt-webfont.eot');
+    src: url('FranklinGothic-BookIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FranklinGothic-BookIt-webfont.woff') format('woff'),
+         url('FranklinGothic-BookIt-webfont.ttf') format('truetype'),
+         url('FranklinGothic-BookIt-webfont.svg#franklin_gothic_fs_bookitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 body {font-family:'franklin_gothic_fs_bookRg', sans-serif;}
@@ -606,7 +617,7 @@ blockquote{border:none;}
 	text-align:center;
 }
 .br-quote {text-align:right; margin-top:0; margin-bottom:10px; font-size:15px;}
-.br-author { margin-top:5px; font-size:13px;}
+.br-author { margin-top:5px; font-size:13px; font-family: 'franklin_gothic_fs_bookitalic', sans-serif;}
 .sl-slide h2 {position:static; line-height:34px; margin:30px 0 20px 0; padding:0;}
 .sl-slide h2 span.small {font-family:'franklin_gothic_fs_bookRg', sans-serif;}
 
@@ -626,6 +637,18 @@ blockquote{border:none;}
 	color: rgba(255, 255, 255, 0.3);
 }
 
+/*---------------------PANE 5 LEARNABLE ----------------------------*/
+
+#learnable .sl-content-cut,
+#learnable .sl-content {
+	background:#f9a74e;
+}
+
+#learnable h2 {text-align:left; margin-top:0; margin-bottom:10px; color:#000;}
+
+#learnable .container {
+	padding-top:50px;
+}
 
 /*---------------------PANE 6 CONSISTENCY ----------------------------*/
 
@@ -647,4 +670,17 @@ blockquote{border:none;}
 
 #delight .sl-deco h2, #delight .sl-deco blockquote{
 	color:white;
+}
+
+/*---------------------PANE 7 CREDIBLE ----------------------------*/
+
+#credible .sl-content-cut,
+#credible .sl-content {
+	background:#8957b5;
+}
+
+#credible h2 {text-align:left; margin-top:0; margin-bottom:10px; color:#000;}
+
+#credible .container {
+	padding-top:50px;
 }
