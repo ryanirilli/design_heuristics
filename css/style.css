@@ -566,7 +566,9 @@ blockquote{border:none;}
 	background:#c69c6d;
 }
 
-#why h2 {width:100%;}
+#why h2 {width:100%; margin-top:0; }
+
+.intro {font-size:19px; line-height:1.4em;  margin-bottom:15px;}
 
 
 
